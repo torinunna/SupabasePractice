@@ -17,6 +17,12 @@
 		864683712B12423D003FFC06 /* Realtime in Frameworks */ = {isa = PBXBuildFile; productRef = 864683702B12423D003FFC06 /* Realtime */; };
 		864683732B12423D003FFC06 /* Storage in Frameworks */ = {isa = PBXBuildFile; productRef = 864683722B12423D003FFC06 /* Storage */; };
 		864683752B12423D003FFC06 /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = 864683742B12423D003FFC06 /* Supabase */; };
+		864683772B1242A1003FFC06 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864683762B1242A1003FFC06 /* ViewModel.swift */; };
+		864683792B1242B4003FFC06 /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864683782B1242B4003FFC06 /* Secrets.swift */; };
+		8646837B2B1242C3003FFC06 /* Feature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8646837A2B1242C3003FFC06 /* Feature.swift */; };
+		8646837D2B1242E6003FFC06 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8646837C2B1242E6003FFC06 /* AddView.swift */; };
+		8646837F2B1242F5003FFC06 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8646837E2B1242F5003FFC06 /* AuthView.swift */; };
+		864683812B124303003FFC06 /* UpdateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864683802B124303003FFC06 /* UpdateView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +31,12 @@
 		8646835D2B12421A003FFC06 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8646835F2B12421B003FFC06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		864683622B12421B003FFC06 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		864683762B1242A1003FFC06 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		864683782B1242B4003FFC06 /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
+		8646837A2B1242C3003FFC06 /* Feature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feature.swift; sourceTree = "<group>"; };
+		8646837C2B1242E6003FFC06 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		8646837E2B1242F5003FFC06 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		864683802B124303003FFC06 /* UpdateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +77,12 @@
 			children = (
 				8646835B2B12421A003FFC06 /* SupabasePracticeApp.swift */,
 				8646835D2B12421A003FFC06 /* ContentView.swift */,
+				8646837C2B1242E6003FFC06 /* AddView.swift */,
+				8646837E2B1242F5003FFC06 /* AuthView.swift */,
+				864683802B124303003FFC06 /* UpdateView.swift */,
+				864683762B1242A1003FFC06 /* ViewModel.swift */,
+				864683782B1242B4003FFC06 /* Secrets.swift */,
+				8646837A2B1242C3003FFC06 /* Feature.swift */,
 				8646835F2B12421B003FFC06 /* Assets.xcassets */,
 				864683612B12421B003FFC06 /* Preview Content */,
 			);
@@ -160,7 +178,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8646837F2B1242F5003FFC06 /* AuthView.swift in Sources */,
+				864683812B124303003FFC06 /* UpdateView.swift in Sources */,
 				8646835E2B12421A003FFC06 /* ContentView.swift in Sources */,
+				864683792B1242B4003FFC06 /* Secrets.swift in Sources */,
+				8646837D2B1242E6003FFC06 /* AddView.swift in Sources */,
+				8646837B2B1242C3003FFC06 /* Feature.swift in Sources */,
+				864683772B1242A1003FFC06 /* ViewModel.swift in Sources */,
 				8646835C2B12421A003FFC06 /* SupabasePracticeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
