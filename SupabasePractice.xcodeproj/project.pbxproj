@@ -23,6 +23,7 @@
 		8646837D2B1242E6003FFC06 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8646837C2B1242E6003FFC06 /* AddView.swift */; };
 		8646837F2B1242F5003FFC06 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8646837E2B1242F5003FFC06 /* AuthView.swift */; };
 		864683812B124303003FFC06 /* UpdateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864683802B124303003FFC06 /* UpdateView.swift */; };
+		8678D6982B13807D00D4FAF7 /* Hide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8678D6972B13807D00D4FAF7 /* Hide.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		8646837C2B1242E6003FFC06 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 		8646837E2B1242F5003FFC06 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
 		864683802B124303003FFC06 /* UpdateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateView.swift; sourceTree = "<group>"; };
+		8678D6972B13807D00D4FAF7 /* Hide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hide.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				864683762B1242A1003FFC06 /* ViewModel.swift */,
 				864683782B1242B4003FFC06 /* Secrets.swift */,
 				8646837A2B1242C3003FFC06 /* Feature.swift */,
+				8678D6972B13807D00D4FAF7 /* Hide.swift */,
 				8646835F2B12421B003FFC06 /* Assets.xcassets */,
 				864683612B12421B003FFC06 /* Preview Content */,
 			);
@@ -133,7 +136,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					864683572B12421A003FFC06 = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -184,6 +187,7 @@
 				864683792B1242B4003FFC06 /* Secrets.swift in Sources */,
 				8646837D2B1242E6003FFC06 /* AddView.swift in Sources */,
 				8646837B2B1242C3003FFC06 /* Feature.swift in Sources */,
+				8678D6982B13807D00D4FAF7 /* Hide.swift in Sources */,
 				864683772B1242A1003FFC06 /* ViewModel.swift in Sources */,
 				8646835C2B12421A003FFC06 /* SupabasePracticeApp.swift in Sources */,
 			);
@@ -228,6 +232,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -288,6 +293,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
