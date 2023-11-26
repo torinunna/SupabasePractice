@@ -8,7 +8,7 @@
 import Foundation
 
 enum Secrets {
-    static let projectURL = URL(string: "")!
+    static let projectURL = URL(string: Hide().projectUrl)!
     
-    static let apiKey = ""
+    static let apiKey = Hide().apiKey
 }
