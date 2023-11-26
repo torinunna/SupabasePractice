@@ -36,6 +36,16 @@ final class ViewModel: ObservableObject {
     }
     
     func fetchFeatureRequests() async throws {
+        let features: [Feature] = try await supabase.database
+            .from(Table.features)
+            .select()
+            .order("created_at", ascending: false)
+            .execute()
+            .value
+        
+        DispatchQueue.main.async {
+            self.features = features
+        }
     }
     
     func update(_ feature: Feature, with text: String) async {
