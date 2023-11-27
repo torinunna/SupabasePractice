@@ -78,6 +78,11 @@ final class ViewModel: ObservableObject {
     }
     
     func deleteFeature(at id: Int) async throws {
+        try await supabase.database
+            .from(Table.features)
+            .delete()
+            .eq("id", value: id)
+            .execute()
     }
     
     // MARK: - Authentication
